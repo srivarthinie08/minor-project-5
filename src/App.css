@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #222;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+input {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+  }
+
+}
+.card{
+
+border:1px solid #ddd;
+
+padding:15px;
+
+margin:15px;
+
+width:250px;
+
+display:inline-block;
+
+vertical-align:top;
+
+text-align:center;
+
+}
+
+.card img{
+
+width:150px;
+
+height:150px;
+
+object-fit:contain;
+
+}
+
+button{
+
+padding:8px 15px;
+
+background:#007bff;
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+}
+.navbar{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    background-color:#222;
+}
+
+.nav-item{
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    background:#007bff;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.nav-item:hover{
+    background:#0056b3;
+}
